@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,40 +6,45 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Header */
 header {
     background: #333;
     color: white;
     text-align: center;
-    padding: 1rem;
+    padding: 1.5rem;
+    font-size: 1.5rem;
 }
 
-main {
+/* Post Container */
+.post {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
     background: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
 
-.post {
-    border-bottom: 1px solid #ddd;
-    padding: 20px 0;
-}
-
-.post h2 {
-    margin: 0;
-    color: #333;
-}
-
+/* Paragraph Styling */
 .post p {
-    color: #666;
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.6;
 }
 
-.read-more {
-    color: #007bff;
+/* Back to Home Link */
+.post a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background: #007bff;
+    color: white;
     text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
 }
 
-.read-more:hover {
-    text-decoration: underline;
+.post a:hover {
+    background: #0056b3;
 }
