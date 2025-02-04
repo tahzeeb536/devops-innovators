@@ -1,0 +1,12 @@
+[
+    {
+        "title": "My First Blog Post",
+        "excerpt": "This is the first post on my static blog.",
+        "url": "posts/post1.html"
+    },
+    {
+        "title": "My Second Blog Post",
+        "excerpt": "This is another example post.",
+        "url": "posts/post2.html"
+    }
+]
