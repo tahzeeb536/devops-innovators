@@ -1,12 +1,7 @@
 [
     {
-        "title": "My First Blog Post",
-        "excerpt": "This is the first post on my static blog.",
-        "url": "posts/post1.html"
-    },
-    {
-        "title": "My Second Blog Post",
-        "excerpt": "This is another example post.",
-        "url": "posts/post2.html"
+        "title": "How to create new SSH keys in EC2",
+        "excerpt": "This article explains step by step approach to create new ssh keys in EC2 instance.",
+        "url": "posts/how-to-create-new-ssh-keys-in-ec2.html"
     }
 ]
